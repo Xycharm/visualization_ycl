@@ -1,7 +1,9 @@
 import styles from './page.module.css'
+// import Head from 'next/head'
 
 export default function Home() {
   return (
+    <>
     <main className={styles.main}>
       <div className={styles.demo}>
         这里展示标题、文字说明以及被选中的点的详细数据
@@ -18,5 +20,6 @@ export default function Home() {
         这里结合地图展示某日某时段车辆的流动情况
       </div>
     </main>
+    </>
   )
 }
